@@ -7,6 +7,7 @@ import (
 func reverse(x int) int {
 	val := 0
 	for (x != 0) {
+		// fmt.Println(x, x % 10)
 		val *= 10 
 		val += x % 10
 		x /= 10
